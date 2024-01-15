@@ -3,7 +3,7 @@
 ## About
 "Dreams Seller" in Portuguese, is a fictional website focused on those who want to have the best overseas trips of their lives by the best prices.
 
-# Version 0.2.1
+## Version 0.2.1
 - Fix: "I am interested" button added to the products on the section destinations "#store";
 
 ## Version 0.2
