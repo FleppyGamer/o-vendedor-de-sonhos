@@ -17,6 +17,34 @@
     align-items: center;
 }
 
+header,
+footer{
+    padding: 16px 0;
+}
+
+header > .container,
+footer{
+    padding-bottom: 0;
+}
+
+#hamburger-menu{
+    display: none;
+    width: 32px;
+    cursor: pointer;
+}
+
+#hamburger-menu span{
+    display: block;
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    margin: 4px;
+}
+
+nav{
+    padding: 12px 0;
+}
+
 ul{
     display: flex;
     list-style: none;
@@ -26,6 +54,7 @@ ul li{
 }
 
 ul li a{
+    display: inline;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -34,14 +63,77 @@ ul li a:hover{
     text-decoration: underline;
 }
 
-#hamburger-menu{
-    width: 32px;
-    cursor: pointer;
+section{
+    padding: 16px 0;
 }
 
-#hamburger-menu span{
-    display: block;
-    height: 2px;
+h2,
+h3{
+    font-weight: 400;
+    margin: 8px 0;
+}
+
+h2{
+    padding-bottom: 8px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    border-bottom: 2px solid black;
+}
+
+#about .container{
+    display: grid;
+    grid-template-columns: 40% 55%;
+    column-gap: 5%;
+}
+
+.product-section{
+    display: grid;
+    grid-template-columns: repeat(4, 24.25%);
+    column-gap: 1%;
+}
+
+.product img{
     width: 100%;
-    margin: 4px;
+}
+
+.price{
+    display: flex;
+    margin-top: 8px;
+}
+
+.price strike,
+.price p{
+    font-weight: 400;
+    margin-right: 8px;
+}
+
+.price strike{
+    color: red;
+}
+
+#form-info{
+    font-size: 0.75em;
+    margin-top: 16px;
+}
+
+form{
+    display: block;
+    width: 360px;
+    margin-top: 8px;
+}
+
+form .form-fields{
+    margin-bottom: 8px;
+}
+
+.form-fields input,
+.form-fields textarea,
+form button{
+    width: 100%;
+    padding: 4px;
+}
+
+.form-fields textarea{
+    height: 120px;
+    resize: none;
 }

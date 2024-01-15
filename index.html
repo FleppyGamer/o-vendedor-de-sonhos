@@ -36,7 +36,7 @@
     <section id="about">
         <div class="container">
             <img src="https://via.placeholder.com/400x400" alt="Imagem da loja">
-            <div class="about-info">
+            <div id="info">
                 <h2>Sobre nós</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui lectus, ornare in luctus ac, scelerisque a erat. Fusce non posuere mauris. Phasellus fringilla odio felis, non lacinia magna cursus a. Integer a euismod lacus. Ut justo felis, volutpat in sem sit amet, laoreet pharetra eros. Aliquam quis quam orci. Nunc id placerat mauris.
@@ -50,47 +50,49 @@
     <section id="store">
         <div class="container">
             <h2>Produtos</h2>
-            <article class="product">
-                <img src="https://via.placeholder.com/200x200" alt="Amsterdã">
-                <h3>Amsterdã</h3>
-                <p>Este pacote inclui: Translado aeroporto-hotel e hotel-aeroporto, estadia de 5 noites, café da manhã, almoço, jantar e passeios ao redor da cidade.</p>
-                <div class="price">
-                    <p>R$ 6.999,99</p>
-                </div>
-            </article>
-            <article class="product">
-                <img src="https://via.placeholder.com/200x200" alt="Londres">
-                <h3>Londres</h3>
-                <p>Este pacote inclui: Translado aeroporto-hotel e hotel-aeroporto, estadia de 5 noites, café da manhã, almoço, jantar e passeios ao redor da cidade.</p>
-                <div class="price">
-                    <strike>R$ 6.999,99</strike>
-                    <p>R$ 4.499,99</p>
-                </div>
-            </article>
-            <article class="product">
-                <img src="https://via.placeholder.com/200x200" alt="Nova York">
-                <h3>Nova York</h3>
-                <p>Este pacote inclui: Translado aeroporto-hotel e hotel-aeroporto, estadia de 5 noites, café da manhã, almoço, jantar e passeios ao redor da cidade.</p>
-                <div class="price">
-                    <strike>R$ 6.999,99</strike>
-                    <p>R$ 4.499,99</p>
-                </div>
-            </article>
-            <article class="product">
-                <img src="https://via.placeholder.com/200x200" alt="Tóquio">
-                <h3>Tóquio</h3>
-                <p>Este pacote inclui: Translado aeroporto-hotel e hotel-aeroporto, estadia de 5 noites, café da manhã, almoço, jantar e passeios ao redor da cidade.</p>
-                <div class="price">
-                    <p>R$ 6.999,99</p>
-                </div>
-            </article>
+            <div class="product-section">
+                <article class="product">
+                    <img src="https://via.placeholder.com/200x200" alt="Amsterdã">
+                    <h3>Amsterdã</h3>
+                    <p>Este pacote inclui: Translado aeroporto-hotel e hotel-aeroporto, estadia de 5 noites, café da manhã, almoço, jantar e passeios ao redor da cidade.</p>
+                    <div class="price">
+                        <p>R$ 6.999,99</p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img src="https://via.placeholder.com/200x200" alt="Londres">
+                    <h3>Londres</h3>
+                    <p>Este pacote inclui: Translado aeroporto-hotel e hotel-aeroporto, estadia de 5 noites, café da manhã, almoço, jantar e passeios ao redor da cidade.</p>
+                    <div class="price">
+                        <strike>R$ 6.999,99</strike>
+                        <p>R$ 4.499,99</p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img src="https://via.placeholder.com/200x200" alt="Nova York">
+                    <h3>Nova York</h3>
+                    <p>Este pacote inclui: Translado aeroporto-hotel e hotel-aeroporto, estadia de 5 noites, café da manhã, almoço, jantar e passeios ao redor da cidade.</p>
+                    <div class="price">
+                        <strike>R$ 6.999,99</strike>
+                        <p>R$ 4.499,99</p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img src="https://via.placeholder.com/200x200" alt="Tóquio">
+                    <h3>Tóquio</h3>
+                    <p>Este pacote inclui: Translado aeroporto-hotel e hotel-aeroporto, estadia de 5 noites, café da manhã, almoço, jantar e passeios ao redor da cidade.</p>
+                    <div class="price">
+                        <p>R$ 6.999,99</p>
+                    </div>
+                </article>
+            </div>
         </div>
     </section>
     <section id="contact">
         <div class="container">
             <h2>Contate-nos</h2>
+            <p id="form-info">*Campo obrigatório</p>
             <form class="contact-form">
-                <p>*Campo obrigatório</p>
                 <div class="form-fields">
                     <label for="name">Nome Completo*</label>
                     <input type="text" name="name" id="name">
