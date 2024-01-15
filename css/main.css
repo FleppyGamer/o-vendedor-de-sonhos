@@ -96,6 +96,10 @@ h2{
     width: 100%;
 }
 
+.pack-info p{
+    margin-bottom: 6px;
+}
+
 .price{
     display: flex;
     margin-top: 8px;
@@ -109,6 +113,10 @@ h2{
 
 .price strike{
     color: red;
+}
+
+article button{
+    margin-top: 8px;
 }
 
 #form-info{
@@ -128,7 +136,9 @@ form .form-fields{
 
 .form-fields input,
 .form-fields textarea,
+article button,
 form button{
+    font-size: 1em;
     width: 100%;
     padding: 4px;
 }
