@@ -6,7 +6,7 @@
 ## Version 0.2
 - main.css created;
 - Elements of the website were organized;
-- <h2> elements now have borders in their bottoms;
+- "h2" elements now have borders in their bottoms;
 - Discount tags: Old prices get striked and with the color red, being followed by the new price; 
 
 ## Version 0.1
