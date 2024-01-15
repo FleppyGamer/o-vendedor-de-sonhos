@@ -4,47 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O Vendedor de Sonhos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container container-flex">
             <h1>O Vendedor de Sonhos</h1>
-            <ul class="section-menu-desktop">
+            <div id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav>
+            <ul class="section-menu container">
                 <li>
                     <a href="#about">Sobre</a>
                 </li>
                 <li>
-                    <a href="#store">Produtos</a>
+                    <a href="#store">Destinos</a>
                 </li>
                 <li>
                     <a href="#contact">Contate-nos</a>
                 </li>
             </ul>
-            <nav>
-                <ul class="section-menu-mobile-devices">
-                    <li>
-                        <a href="#about">Sobre</a>
-                    </li>
-                    <li>
-                        <a href="#store">Produtos</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contate-nos</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        </nav>
     </header>
     <section id="about">
         <div class="container">
-            <h2>Sobre nós</h2>
             <img src="https://via.placeholder.com/400x400" alt="Imagem da loja">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui lectus, ornare in luctus ac, scelerisque a erat. Fusce non posuere mauris. Phasellus fringilla odio felis, non lacinia magna cursus a. Integer a euismod lacus. Ut justo felis, volutpat in sem sit amet, laoreet pharetra eros. Aliquam quis quam orci. Nunc id placerat mauris.
-            </p>
-            <p>
-                Nulla facilisi. Proin sit amet viverra nunc, ac sagittis odio. Sed eget arcu mollis tortor cursus venenatis. Ut et eleifend dui. Sed lacinia urna sit amet odio sodales, sit amet volutpat lacus mollis. Nullam convallis ac tellus et dignissim. Curabitur pretium libero vitae massa dapibus, eget dignissim nisl consequat. Suspendisse potenti. Mauris in sagittis tellus.
-            </p>
+            <div class="about-info">
+                <h2>Sobre nós</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui lectus, ornare in luctus ac, scelerisque a erat. Fusce non posuere mauris. Phasellus fringilla odio felis, non lacinia magna cursus a. Integer a euismod lacus. Ut justo felis, volutpat in sem sit amet, laoreet pharetra eros. Aliquam quis quam orci. Nunc id placerat mauris.
+                </p>
+                <p>
+                    Nulla facilisi. Proin sit amet viverra nunc, ac sagittis odio. Sed eget arcu mollis tortor cursus venenatis. Ut et eleifend dui. Sed lacinia urna sit amet odio sodales, sit amet volutpat lacus mollis. Nullam convallis ac tellus et dignissim. Curabitur pretium libero vitae massa dapibus, eget dignissim nisl consequat. Suspendisse potenti. Mauris in sagittis tellus.
+                </p>
+            </div>
         </div>
     </section>
     <section id="store">
@@ -68,20 +68,20 @@
                 </div>
             </article>
             <article class="product">
-                <img src="https://via.placeholder.com/200x200" alt="Tóquio">
-                <h3>Tóquio</h3>
-                <p>Este pacote inclui: Translado aeroporto-hotel e hotel-aeroporto, estadia de 5 noites, café da manhã, almoço, jantar e passeios ao redor da cidade.</p>
-                <div class="price">
-                    <p>R$ 6.999,99</p>
-                </div>
-            </article>
-            <article class="product">
                 <img src="https://via.placeholder.com/200x200" alt="Nova York">
                 <h3>Nova York</h3>
                 <p>Este pacote inclui: Translado aeroporto-hotel e hotel-aeroporto, estadia de 5 noites, café da manhã, almoço, jantar e passeios ao redor da cidade.</p>
                 <div class="price">
                     <strike>R$ 6.999,99</strike>
                     <p>R$ 4.499,99</p>
+                </div>
+            </article>
+            <article class="product">
+                <img src="https://via.placeholder.com/200x200" alt="Tóquio">
+                <h3>Tóquio</h3>
+                <p>Este pacote inclui: Translado aeroporto-hotel e hotel-aeroporto, estadia de 5 noites, café da manhã, almoço, jantar e passeios ao redor da cidade.</p>
+                <div class="price">
+                    <p>R$ 6.999,99</p>
                 </div>
             </article>
         </div>
@@ -124,7 +124,7 @@
         </div>
     </section>
     <footer>
-        <div class="container">
+        <div class="container container-flex">
             <p>Copyright &copy; 2024 Olivia de Paulo Alves - Todos os direitos reservados</p>
             <ul class="social-medias">
                 <li>
