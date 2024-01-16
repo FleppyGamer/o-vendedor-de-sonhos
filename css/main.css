@@ -50,7 +50,7 @@ h3{
 h1{
     font-family: 'Comfortaa', sans-serif;
     font-size: 1.6em;
-    margin-left: 16px;
+    margin-left: 18px;
 }
 
 ul{
@@ -189,4 +189,8 @@ form button{
 .form-fields textarea{
     height: 120px;
     resize: none;
+}
+
+footer img{
+    height: 48px;
 }
