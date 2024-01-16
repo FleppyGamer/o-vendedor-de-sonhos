@@ -25,7 +25,7 @@ header{
 
 header,
 footer{
-    background-color: #f5f5f5; /*Modify it later*/
+    background-color: #f5f5f5;
     padding: 8px 0;
 }
 
@@ -83,7 +83,7 @@ nav{
 }
 
 section{
-    padding: 16px 0;
+    padding: 24px 0;
 }
 
 h2,
@@ -149,8 +149,11 @@ article button{
 
 form{
     display: block;
-    width: 360px;
+    background-color: #f5f5f5;
+    width: 392px;
+    padding: 16px;
     margin-top: 8px;
+    border-radius: 6px;
 }
 
 form .form-fields{
