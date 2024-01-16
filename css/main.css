@@ -17,6 +17,13 @@
     align-items: center;
 }
 
+ul li a,
+button,
+#form-info{
+    font-weight: 500;
+}
+
+
 header{
     position: sticky;
     top: 0;
@@ -34,9 +41,15 @@ footer{
     padding-bottom: 0;
 }
 
-h1{
+h1,
+h2,
+h3{
     font-weight: 600;
-    font-size: 2em;
+}
+
+h1{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.6em;
     margin-left: 16px;
 }
 
@@ -50,7 +63,6 @@ ul li{
 
 ul li a{
     display: inline;
-    font-weight: 500;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -88,7 +100,6 @@ section{
 
 h2,
 h3{
-    font-weight: 600;
     margin: 8px 0;
 }
 
@@ -97,6 +108,10 @@ h2{
     margin-top: 0;
     margin-bottom: 8px;
     border-bottom: 2px solid black;
+}
+
+h3{
+    font-size: 1.25em;
 }
 
 #about .container{
@@ -126,7 +141,7 @@ h2{
 
 .price strike,
 .price p{
-    font-weight: 400;
+    font-size: 18px;
     margin-right: 8px;
 }
 
@@ -134,16 +149,11 @@ h2{
     color: red;
 }
 
-button{
-    font-weight: 500;
-}
-
 article button{
     margin-top: 8px;
 }
 
 #form-info{
-    font-weight: 500;
     font-size: 1em;
     margin-top: 16px;
 }
