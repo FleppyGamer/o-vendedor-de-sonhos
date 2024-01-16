@@ -126,6 +126,10 @@ button{
     border-radius: 4px;
 }
 
+#about img{
+    height: 400px;
+}
+
 .product-section{
     display: grid;
     grid-template-columns: repeat(4, 24.25%);
@@ -133,6 +137,7 @@ button{
 }
 
 .product img{
+    height: 248.25px;
     width: 100%;
 }
 
