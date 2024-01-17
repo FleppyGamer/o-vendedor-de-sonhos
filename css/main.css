@@ -123,7 +123,7 @@ h3{
 h2{
     padding-bottom: 8px;
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     border-bottom: 2px solid var(--borders-and-texts-one);
 }
 
@@ -133,18 +133,18 @@ h3{
 
 #about .container{
     display: grid;
-    grid-template-columns: 40% 55%;
-    column-gap: 5%;
+    grid-template-columns: 40% 58%;
+    column-gap: 2%;
 }
 
 #about img,
-article img,
-button{
-    border-radius: 4px;
+article img{
+    border-radius: 6px;
 }
 
 #about img{
     height: 400px;
+    width: 400px;
 }
 
 .product-section{
@@ -181,11 +181,10 @@ button{
     font-weight: 600;
 }
 
-/*Everyting BELLOW is OK*/
-
 button{
     background-color: var(--background-one);
     border: 1px solid var(--borders-and-texts-two);
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -204,7 +203,6 @@ article button{
 
 #form-info{
     font-size: 1em;
-    margin-top: 16px;
 }
 
 form{
