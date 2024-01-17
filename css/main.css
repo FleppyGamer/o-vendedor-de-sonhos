@@ -1,4 +1,15 @@
+:root{
+    --background-one: #FFD700;
+    --darker-background-one: #e6c300;
+    --background-two: #00008B;
+    --background-three: #F5F5F5;
+    --borders-and-texts-one: #fff;
+    --borders-and-texts-two: #000;
+    --borders-and-texts-three: #ff0000;
+}
+
 *{
+    color: var(--borders-and-texts-one);
     font-family: 'Assistant', sans-serif;
     font-weight: 400;
     padding: 0;
@@ -32,13 +43,13 @@ header{
 
 header,
 footer{
-    background-color: #f5f5f5;
-    padding: 8px 0;
+    background-color: var(--background-one);
+    padding-top: 8px;
 }
 
 header > .container,
 footer{
-    padding-bottom: 0;
+    padding-bottom: 8px;
 }
 
 h1,
@@ -48,6 +59,7 @@ h3{
 }
 
 h1{
+    color: var(--borders-and-texts-two);
     font-family: 'Comfortaa', sans-serif;
     font-size: 1.6em;
     margin-left: 18px;
@@ -62,7 +74,8 @@ ul li{
 }
 
 ul li a{
-    display: inline;
+    display: flex;
+    color: var(--borders-and-texts-two);
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -76,25 +89,29 @@ ul li a:hover{
 }
 
 #hamburger-menu{
-    display: none;
+    display: block;
     width: 32px;
     cursor: pointer;
 }
 
 #hamburger-menu span{
     display: block;
-    background-color: black;
+    background-color: var(--borders-and-texts-two);
     height: 2px;
     width: 100%;
     margin: 4px;
 }
 
 nav{
-    display: none;
+    display: block;
+    background-color: var(--background-three);
     padding: 12px 0;
 }
 
+/*Everything ABOVE is OK*/
+
 section{
+    background-color: var(--background-two);
     padding: 24px 0;
 }
 
@@ -107,7 +124,7 @@ h2{
     padding-bottom: 8px;
     margin-top: 0;
     margin-bottom: 8px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--borders-and-texts-one);
 }
 
 h3{
@@ -157,7 +174,28 @@ button{
 }
 
 .price strike{
-    color: red;
+    color: var(--borders-and-texts-three);
+}
+
+.price p{
+    font-weight: 600;
+}
+
+/*Everyting BELLOW is OK*/
+
+button{
+    background-color: var(--background-one);
+    border: 1px solid var(--borders-and-texts-two);
+    cursor: pointer;
+}
+
+label,
+button{
+    color: var(--borders-and-texts-two);
+}
+
+button:hover{
+    background-color: var(--darker-background-one);
 }
 
 article button{
@@ -171,7 +209,7 @@ article button{
 
 form{
     display: block;
-    background-color: #f5f5f5;
+    background-color: var(--background-three);
     width: 392px;
     padding: 16px;
     margin-top: 8px;
@@ -188,7 +226,7 @@ article button,
 form button{
     font-size: 1em;
     width: 100%;
-    padding: 4px;
+    padding: 6px;
 }
 
 .form-fields textarea{
@@ -196,6 +234,10 @@ form button{
     resize: none;
 }
 
+footer p{
+    color: var(--borders-and-texts-two);
+}
+
 footer img{
-    height: 48px;
+    height: 36px;
 }
