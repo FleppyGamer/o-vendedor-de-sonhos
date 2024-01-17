@@ -39,6 +39,7 @@ header{
     position: sticky;
     top: 0;
     left: 0;
+    border-bottom: 4px solid var(--borders-and-texts-one);
 }
 
 header,
@@ -89,7 +90,7 @@ ul li a:hover{
 }
 
 #hamburger-menu{
-    display: block;
+    display: none;
     width: 32px;
     cursor: pointer;
 }
@@ -103,12 +104,10 @@ ul li a:hover{
 }
 
 nav{
-    display: block;
+    display: none;
     background-color: var(--background-three);
     padding: 12px 0;
 }
-
-/*Everything ABOVE is OK*/
 
 section{
     background-color: var(--background-two);
@@ -208,7 +207,7 @@ article button{
 form{
     display: block;
     background-color: var(--background-three);
-    width: 392px;
+    width: 400px;
     padding: 16px;
     margin-top: 8px;
     border-radius: 6px;
