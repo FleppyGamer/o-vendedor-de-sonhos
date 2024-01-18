@@ -380,7 +380,7 @@ footer img{
 
     .product-section{
         display: grid;
-        grid-template-columns: repeat(2, 49%);
+        grid-template-columns: repeat(2, 49.5%);
         column-gap: 1%;
         row-gap: 3%;
         height: 100%;

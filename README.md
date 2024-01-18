@@ -4,6 +4,12 @@
 
 "Dreams Seller" in Portuguese, is a fictional website focused on those who want to have the best overseas trips of their lives by the best prices.
 
+## [unreleased]
+
+### Fixed:
+
+- The product columns for tablets was slightly readjusted for better use of the layout;
+
 ## [0.4] - 2024-01-18
 
 ### Added:
