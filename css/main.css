@@ -53,13 +53,13 @@ footer{
     padding-bottom: 8px;
 }
 
-h1,
+#text-logo-website,
 h2,
 h3{
     font-weight: 600;
 }
 
-h1{
+#text-logo-website{
     color: var(--borders-and-texts-two);
     font-family: 'Comfortaa', sans-serif;
     font-size: 1.6em;
@@ -77,6 +77,7 @@ ul li{
 ul li a{
     display: flex;
     color: var(--borders-and-texts-two);
+    font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -92,6 +93,7 @@ ul li a:hover{
 #hamburger-menu{
     display: none;
     width: 32px;
+    margin-right: 0.5em;
     cursor: pointer;
 }
 
@@ -100,13 +102,18 @@ ul li a:hover{
     background-color: var(--borders-and-texts-two);
     height: 2px;
     width: 100%;
-    margin: 4px;
+    margin-top: 4px;
 }
 
 nav{
     display: none;
     background-color: var(--background-three);
-    padding: 12px 0;
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+
+.section-menu-mobile li a{
+    font-size: 0.9em;
 }
 
 section{
@@ -221,6 +228,7 @@ form .form-fields{
 .form-fields textarea,
 article button,
 form button{
+    color: var(--borders-and-texts-two);
     font-size: 1em;
     width: 100%;
     padding: 6px;
@@ -235,6 +243,158 @@ footer p{
     color: var(--borders-and-texts-two);
 }
 
+#copyright-message-desktop{
+    display: block;
+}
+
+#copyright-message-mobile{
+    display: none;
+}
+
 footer img{
     height: 36px;
+}
+
+@media screen and (max-width: 640px) {
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    header,
+    footer{
+        background-color: var(--background-one);
+        padding-top: 4px;
+    }
+
+    header > .container,
+    footer{
+        padding-bottom: 4px;
+    }
+
+    #text-logo-website{
+        display: none;
+    }
+
+    .section-menu-desktop{
+        display: none;
+    }
+
+    #hamburger-menu{
+        display: block;
+    }
+
+    section{
+        padding: 18px 0;
+    }
+
+    #about img,
+    .product-section img{
+        height: 100%;
+        width: 100%;
+    }
+
+    #about .container,
+    .product-section{
+        display: block;
+    }
+
+    h2{
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+
+    .product{
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+        border-bottom: 1px solid var(--borders-and-texts-one);
+    }
+
+    #tokyo{
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border-bottom: 0;
+    }
+
+    form{
+        width: 100%;
+    }
+    
+    .form-fields input,
+    .form-fields textarea,
+    form button,
+    footer p{
+        font-size: 0.9em;
+        width: 100%;
+        padding: 4px;
+    }
+
+    footer .container-flex{
+        display: block;
+        text-align: center;
+    }
+
+    #copyright-message-desktop{
+        display: none;
+    }
+
+    #copyright-message-mobile{
+        display: block;
+    }
+
+    .social-medias{
+        justify-content: center;
+        margin-top: 6px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .container{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .section-menu-desktop{
+        display: none;
+    }
+
+    #hamburger-menu{
+        display: block;
+    }
+
+    .section-menu-mobile li a{
+        font-size: 1em;
+    }
+
+    #about .container{
+        display: block;
+    }
+
+    #about img,
+    .product-section img{
+        height: auto;
+        width: 100%;
+        margin-bottom: 8px;
+        border-radius: 8px;
+    }
+
+    .product-section{
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        column-gap: 1%;
+        row-gap: 3%;
+        height: 100%;
+    }
+
+    #contact{
+        padding-top: 48px;
+    }
+
+    #copyright-message-desktop{
+        display: none;
+    }
+
+    #copyright-message-mobile{
+        display: block;
+    }
 }
