@@ -4,6 +4,20 @@
 
 "Dreams Seller" in Portuguese, is a fictional website focused on those who want to have the best overseas trips of their lives by the best prices.
 
+## [0.4] - 2024-01-18
+
+### Added:
+
+- Responsive design for:
+  - Cellphones;
+  - Tablets;
+
+### Changed:
+
+- The copyright paragraph on the bottom of the page now has 2 versions:
+  - One displayed in mobile devices (phones and tablets);
+  - One displayed in desktops;
+
 ## [0.3] - 2024-01-17
 
 ### Added:
