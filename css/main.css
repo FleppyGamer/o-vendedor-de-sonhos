@@ -116,10 +116,6 @@ nav{
     padding-bottom: 4px;
 }
 
-.section-menu-mobile li a{
-    font-size: 0.9em;
-}
-
 section{
     padding: 24px 0;
 }
@@ -327,7 +323,6 @@ footer img{
     .form-fields textarea,
     form button,
     footer p{
-        font-size: 0.9em;
         width: 100%;
         padding: 4px;
     }
@@ -363,10 +358,6 @@ footer img{
 
     #hamburger-menu{
         display: block;
-    }
-
-    .section-menu-mobile li a{
-        font-size: 1em;
     }
 
     #about .container{
