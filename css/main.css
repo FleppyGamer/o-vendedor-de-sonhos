@@ -238,6 +238,12 @@ form button{
     resize: none;
 }
 
+.error{
+    color: var(--borders-and-texts-three);
+    font-weight: 500;
+    margin-top: 8px;
+}
+
 footer p{
     color: var(--borders-and-texts-two);
 }
