@@ -4,7 +4,23 @@
 
 "Dreams Seller" in Portuguese, is a fictional website focused on those who want to have the best overseas trips of their lives by the best prices.
 
-## [unreleased]
+## [1.0] - 2024-01-18
+
+### Added:
+
+- Files:
+  - main.js;
+  - jquery.validate.min.js;
+  - jquery.mask.min.js;
+- Behavior to the website:
+  - Masking for "primary" and "secondary phone" form fields (example of mask.: (11) 91234-5678);
+  - Form validation: Now if obligatory fields don't be fullfilled, the message "This field is required" will be exhibited and the form won't be sent; 
+  - A scrolling animation that takes the user from the store section to the contact section as soon as they click the "I am interested" button;
+  - When the user clicks the "I am interested" button, the form field "Package of Interest" is fullfield with the package name;
+
+### Changed:
+
+- This README file had its formatting slightly modified;
 
 ### Fixed:
 
@@ -52,13 +68,15 @@
 ## [0.2.1] - 2024-01-15
 
 ### Added:
+
 - "I am interested" button at "#store";
 
 ## [0.2] - 2024-01-15
 
 ### Added:
 
-- main.css;
+- Files:
+  - main.css;
 - Font pallete [0.1]: 
   - Roboto, by Christian Robertson (for all the elements): https://fonts.google.com/specimen/Roboto
 - Discount tags: 
@@ -73,6 +91,7 @@
 
 ### Added:
 
-- README.md;
-- index.html;
+- Files:
+  - README.md;
+  - index.html;
 - Basic structure of the website;
