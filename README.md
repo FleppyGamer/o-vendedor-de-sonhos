@@ -55,7 +55,6 @@
 - Images:
   - London image at "#about";
   - Amsterdam image at "#store";
-  - London image at "#store";
   - New York image at "#store";
   - Tokyo image at "#store";
 
